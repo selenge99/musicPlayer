@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: yellow;
+}
+.first{
+    width:350px;
+    height:50px;
+    background-color: gray;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.second{
+    width:400px;
+    height:80px;
+    background-color: white;
+    margin:auto;
+    border-radius: 20px; 
+  
+}
+
+.disc{
+    width:100px;
+    height:100px;
+    border-radius: 30px;
+    background-color: rgb(150, 79, 215);
+    position:relative;
+    z-index: 2;
+    
+}
+
+.btn{
+display: flex;
+gap:10px;
+justify-content: center;
+margin-bottom: 0px;
+}
+
+.anime_rot {
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+    
+}
